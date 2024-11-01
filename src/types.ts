@@ -5,8 +5,8 @@ export interface User {
 }
 
 export interface ChecklistData {
-  shuburJamaah: boolean;
-  quranReading: boolean;
+  shuburJamaah: 'yes' | 'no' | 'not_selected';
+  quranReading: 'yes' | 'no' | 'not_selected';
   submissionDate?: string;
 }
 
