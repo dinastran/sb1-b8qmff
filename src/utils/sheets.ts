@@ -1,6 +1,6 @@
 import { SubmissionData } from '../types';
 
-const SHEET_URL = 'https://script.google.com/macros/s/AKfycbyHG8UZXgH6w5oNykj8bBseMupPWi90zWh5wNRyjZrhfOqhSNuj6bfCJjkFXV9-Lt4C/exec';
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwmxQhlTu0MQtBKVtsjOzN1ru44u35DFuqP91JWokehyEWmmLON6DvH5MFosqSSRBwy/exec';
 
 export async function submitToSheet(data: SubmissionData): Promise<boolean> {
   try {
