@@ -47,7 +47,7 @@ export function MutabaahChecklist({ user, checklist, onChecklistChange }: Props)
         </div>
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold text-gray-800">
-            Mutaba'ah Yaumiyah
+            Mutaba'ah Usbu'iyah
           </h1>
           <p className="text-gray-600 mt-2">Selamat datang, {user.name}</p>
           <div className="text-sm text-gray-500 mt-1">
