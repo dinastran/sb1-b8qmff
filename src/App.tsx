@@ -7,9 +7,9 @@ function App() {
   const [isRegistered, setIsRegistered] = useState(false);
   const [user, setUser] = useState<User | null>(null);
   const [checklist, setChecklist] = useState<ChecklistData>({
-    shuburJamaah: false,
-    quranReading: false,
-  });
+  shuburJamaah: 'not_selected',
+  quranReading: 'not_selected',
+});
 
   const handleRegister = (userData: User) => {
     setUser(userData);
